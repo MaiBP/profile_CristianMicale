@@ -1,19 +1,19 @@
 const data = [
   {
     id: 1,
-    img: "./images/elfutbolverdadero.png",
+    img: "./public/entreviews/elfutbolverdadero.png",
     link: "https://www.elfutbolverdadero.com/futbolverdadero-entrevista-a-cristian-micale-el-futbol-es-un-juego-y-el-elemento-fundamental-es-la-pelota/",
   },
 
   {
     id: 2,
-    img: "./images/pilaradiario.png",
+    img: "./public/entreviews/pilaradiario.png",
     link: "https://www.pilaradiario.com/laliga/2021/5/26/un-pilarense-suena-con-dirigir-en-espana-111166.html",
   },
 
   {
     id: 3,
-    img: "./images/futbolbcnnetEntrevista.png",
+    img: "./public/entreviews/futbolbcnnetEntrevista.png",
     link: "https://www.futbolbcn.net/entrevista-cristian-y-maira-queremos-estar-donde-los-mejores/",
   },
 
