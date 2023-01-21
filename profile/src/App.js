@@ -3,8 +3,8 @@ import Landing from "./components/Landing";
 import Toggle from "./components/Toggle";
 import { ThemeContext } from "../src/context";
 import About from "./components/About";
-import Entreviews from "./components/Entreviews";
-
+import EntreviewsSlide from "./components/EntreviewsSlide";
+import GlobalStyles from "./Styles/GlobalStyles";
 function App() {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -15,10 +15,11 @@ function App() {
         color: darkMode && "#ededed",
       }}
     >
+      <GlobalStyles/>
       <Toggle />
       <Landing />
       <About />
-      <Entreviews/>
+      <EntreviewsSlide/>
     </div>
   );
 }
