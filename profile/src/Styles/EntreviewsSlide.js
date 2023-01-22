@@ -11,6 +11,12 @@ export const Container = styles.div`
     align-content: center;
     text-align: center; 
     
+    h2{
+      margin-bottom: 10px;
+      font-size: 50px;
+    font-weight: 500;
+    margin: 20px 50px;
+    }
 
     .swiper {
     margin: auto;

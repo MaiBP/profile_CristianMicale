@@ -1,5 +1,4 @@
-// import { Link } from 'react-router-dom'
-// import "../Styles/EntreviewsSlide.css";
+
 import { Container } from "../Styles/EntreviewsSlide";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -24,9 +23,9 @@ const EntreviewsSlide = () => {
     <>
          
       <Container>
-        <div>
+        
           <h2>Entreviews</h2>
-          </div>
+         
         <Swiper
           cssMode={true}
           navigation={true}

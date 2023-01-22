@@ -1,4 +1,4 @@
-import "../Styles/Toggle.css";
+import { Toggler, TogglerIcon, TogglerButton } from "../Styles/ToggleStyles";
 import Sun from "../assets/img/sun.png";
 import Moon from "../assets/img/moon.png";
 import { useContext } from "react";
@@ -11,15 +11,14 @@ const Toggle = () => {
     theme.dispatch({ type: "TOGGLE" });
   };
   return (
-    <div className="t">
-      <img src={Sun} alt="sun" className="t-icon" />
-      <img src={Moon} alt="moon" className="t-icon" />
-      <div
-        className="t-button"
+    <Toggler>
+      <TogglerIcon src={Sun} alt="sun" />
+      <TogglerIcon src={Moon} alt="moon"/>
+      <TogglerButton
         onClick={handleClick}
         style={{ left: theme.state.darkMode ? 0 : 25 }}
-      ></div>
-    </div>
+      ></TogglerButton>
+    </Toggler>
   );
 };
 

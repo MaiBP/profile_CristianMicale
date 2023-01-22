@@ -5,6 +5,7 @@ import { ThemeContext } from "../src/context";
 import About from "./components/About";
 import EntreviewsSlide from "./components/EntreviewsSlide";
 import GlobalStyles from "./Styles/GlobalStyles";
+import Footer from "./components/Footer";
 function App() {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -20,6 +21,7 @@ function App() {
       <Landing />
       <About />
       <EntreviewsSlide/>
+      <Footer/>
     </div>
   );
 }

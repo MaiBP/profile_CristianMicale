@@ -1,13 +1,17 @@
 import styles, {keyframes} from "styled-components"
 
 export const LandingContainer = styles.div`
+
+background: rgb(1,0,36);
+background: linear-gradient(90deg, rgba(1,0,36,0.759563200280112) 0%, rgba(0,14,134,0.6587228641456583) 10%, rgba(39,245,191,0.5018601190476191) 66%);
+
     display: flex;
     height: 100vh
    
 @media (max-width:480px) {
     flex-direction: column;
   }
-`
+`;
 export const LandingLeft = styles.div`
     flex: 1;
     display: flex;
@@ -45,37 +49,47 @@ export const LandingRight = styles.div`
 `
 
 export const Description = styles.p`
+padding: 15px;
+font-size: 1rem;
+text-shadow: -3px 1px rgba(5, 5, 5, 0.2);
+color: #fff;
  @media (max-width:480px) {
     padding: 5px;
     font-size: 3vw;
     text-align: center
  }
-`
+`;
 export const LandingLeftWrapper = styles.div`
- padding: 50px;
-    height: 50%;
+    padding: 50px;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    // justify-content: space-between;
     
 `;
 
 
 
 export const Intro = styles.h2`
- font-size: 50px;
- font-weight:300;
+text-shadow: -3px 1px rgba(5, 5, 5, 0.2);
+color: #fff;
 
-`
+ font-size: 30px;
+ font-weight:200;
+
+`;
 
 export const Name = styles.h2`
-font-size: 80px;
+text-shadow: -3px 1px rgba(5, 5, 5, 0.2);
+color: #fff;
+font-size: 50px;
 
-`
+`;
 
 
 export const Title = styles.div`
- height: 50px;
+ height: 30px;
  overflow: hidden;
  
 `;
@@ -102,20 +116,22 @@ export const TitleWrapper = styles.div`
 
 export const TitleItem = styles.div`
 // height: auto;
+text-shadow: -4px 2px 9px rgba(0, 255, 40, 0.7);
+color: #00ff28;
 
  height: 60px;
     font-size:25px;
     font-weight:bold;
-    color: #24d800;
+    // color:#81ff00;
     display:flex;
     align-items: left;
    
 `;
 
 
-export const SVG = styles.svg`
- width: 30px;
-  height: 30px;
-  position: absolute;
-  bottom: 20px;
-`
+// export const SVG = styles.svg`
+//  width: 30px;
+//   height: 30px;
+//   position: absolute;
+//   bottom: 20px;
+// `

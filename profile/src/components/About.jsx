@@ -9,31 +9,27 @@ const About = () => {
           <img src={Crispic} alt="cristianmicale" className="a-img" />
         </AboutLeft>
         <AboutRight>
-          <Title>Trayectoria</Title>
-          <SubTitle>"¡Disciplina, sacrificio y humildad!"</SubTitle>
+          <Title>My Career</Title>
+          <SubTitle>
+            "With discipline, sacrifice, and humility as my guiding principles,I
+            have forged a career in the world of sports."
+          </SubTitle>
           <Description>
-            Naci en Argentina, decendiente de familia Italiana y vivo en
-            Barcelona. Amo el futbol y el deporte en general. La pasion por lo
-            que hago se ve reflejado en mi trabajo.
+            As a player, I began my journey at the school of Fren and Bochini at
+            Club Atlético Independiente before moving on to Racing Club de
+            Avellaneda. My time there was brief, but I then joined Club Atlético
+            All Boys, where I progressed through the youth ranks and even
+            competed in the fourth division. I also had the opportunity to
+            experience a different culture by playing in Mexico with Cruz Azul Oaxaca. Upon returning to my home country, I played futsal for Yupanqui,
+            Huracán, and All Boys. 
           </Description>
           <Description>
-            Como jugador, comencé en la escuela de Fren y Bochini en el Club
-            Atlético Independiente, luego pase a Racing Club de Avellaneda, ese
-            paso fue breve. Luego al Club Atlético All Boys, donde hice todas
-            las inferiores hasta llegar a cuarta división y participar del
-            selectivo. Por otro lado, vivi una experiencia en México en el Cruz
-            Azul Oaxaca.
-          </Description>
-          <Description>
-            Volví a mi país para jugar en futsal en Yupanqui, Huracán y All
-            Boys. Como entrenador, estuve en Unión de Pilar y Atlético Pilar en
-            la liga Escobar. En Atletico Pilar me desarrolle plenamente hasta
-            llegar a coordinador general de fútbol con mi proyecto de fútbol
-            integral, conectaba a todo el fútbol desde escuelita hasta la
-            primera, tanto en masculino como femenino. Dirigi en las juveniles
-            de Real Pilar FC colaborando tambien con la primera. Hoy, en
-            Barcelona estoy a cargo de la coordinacion y dirijo las juveniles
-            del Futbol Club Almeda.
+            As a coach, I have been involved in Club Unión from the Pilar's City and Atlético Pilar in the Escobar league. In Atlético Pilar, I
+            was able to fully develop my skills and eventually become the
+            general coordinator of football, overseeing all levels of the sport,
+            from youth to senior, both for men and women. I also coached the
+            youth teams of Real Pilar FC and assisted with the senior team.
+            Here in Barcelona, I was responsible for coordination, head coach for the youth teams and asistant of the first team in  Futbol Club Almeda."
           </Description>
         </AboutRight>
       </AboutContainer>
