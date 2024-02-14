@@ -95,7 +95,7 @@ z-index: 1;
  }
     
     @media only screen and ${breakpoint.device.xs} {
-  padding: 20px;
+  padding: 10px;
 //  height: 100%;
 
  }
@@ -105,29 +105,33 @@ z-index: 1;
 
 export const Intro = styles.h1`
 
- font-size: 2rem;
+ font-size: 30px;
  font-weight:200;
 
  @media only screen and ${breakpoint.device.s} {
   margin: 0 auto;
   text-shadow: 1px 1px 2px grey;
+  
  }
 
  @media only screen and ${breakpoint.device.xs} {
   margin:0 auto;
-  font-size: 1rem;
+  
  }
 
 
 `;
 
 export const Name = styles.h1`
-text-shadow: -3px 1px rgba(5, 5, 5, 0.2);
+text-shadow: 1px 1px 2px grey;
+ font-size: 70px;
 
-//  @media only screen and ${breakpoint.device.s} {
-
-//  }
-
+ @media only screen and ${breakpoint.device.s} {
+ font-size: 40px;
+ }
+ @media only screen and ${breakpoint.device.xs} {
+ font-size: 35px;
+ }
 `;
 
 
@@ -155,7 +159,7 @@ const move = keyframes`
 `
 export const TitleWrapper = styles.div`
 // position: relative;
-text-shadow: -3px 1px rgba(5, 5, 5, 0.2);
+text-shadow: 1px 1px 2px grey;
  height: 100%;
  animation: ${move} 10s ease-in-out infinite alternate;
 `;
