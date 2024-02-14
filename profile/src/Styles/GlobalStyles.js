@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import "@fontsource/oswald";
 import "@fontsource/montserrat";
 
 
@@ -13,7 +14,10 @@ body{
     overflow-x: hidden;
     
 }
-
+h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 70px;
+}
 h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
