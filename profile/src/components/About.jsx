@@ -32,7 +32,7 @@ const About = () => {
             y Bochini en el Club Atlético Independiente antes de pasar a Racing
             Club de Avellaneda. Aunque mi tiempo allí fue breve, continué mi
             progreso en el Club Atlético All Boys, donde ascendí a través de las
-            filas juveniles e incluso competí en la cuarta división. También
+            filas juveniles e incluso competir en la cuarta división. También
             tuve la increíble oportunidad de vivir una experiencia cultural
             diferente al jugar en México con Cruz Azul Oaxaca. Al regresar a
             casa, seguí jugando al fútbol sala para Yupanqui, Huracán y All
@@ -55,10 +55,10 @@ const About = () => {
             convertí en el coordinador general de fútbol, supervisando todos los
             niveles del deporte desde juveniles hasta senior, tanto en hombres
             como en mujeres. También entrené a los equipos juveniles de Real
-            Pilar FC y colavore con el primer equipo. Aquí en Barcelona, fui
+            Pilar FC y colabore con el primer equipo. Aquí en Barcelona, fui
             responsable de la coordinación y dirección técnica de los equipos
-            juveniles como Futbol Club Almeda. En la actualidad, dirijo las
-            juveniles preferente del Fontsanta Fatjo"
+            juveniles como Futbol Club Almeda. En la actualidad, dirijo el
+            femenino juveniles preferente del Fontsanta Fatjó"
             {/* As a coach, I've been involved with teams like Club Unión from Pilar and Atlético Pilar in the Escobar league, Argentina. It was in Atlético Pilar where I developed my skills and eventually became the general coordinator of
             football, overseeing all levels of the sport from youth to senior,
             both for men and women. I also coached the youth teams of Real Pilar

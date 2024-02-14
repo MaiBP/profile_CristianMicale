@@ -1,7 +1,17 @@
-import React from 'react'
-import { LandingContainer, LandingLeft, LandingRight, LandingLeftWrapper, Intro, Name, Title, TitleWrapper, TitleItem, Description} from '../Styles/LandingStyles'
-import profileImg from "../assets/img/profileImg.png"
-
+import React from "react";
+import {
+  LandingContainer,
+  LandingLeft,
+  LandingRight,
+  LandingLeftWrapper,
+  Intro,
+  Name,
+  Title,
+  TitleWrapper,
+  TitleItem,
+  Description,
+} from "../Styles/LandingStyles";
+import profileImg from "../assets/img/profileImg.png";
 
 const Landing = () => {
   return (
@@ -17,23 +27,23 @@ const Landing = () => {
             <Title>
               <TitleWrapper>
                 <TitleItem>
-                  Entrenador futbol
+                  Entrenador fútbol
                   {/* Football Coach */}
-
                 </TitleItem>
                 <TitleItem>
                   Entrenador personal
                   {/* Personal Trainer */}
-
                 </TitleItem>
-                <TitleItem> 
-                  Deporte de alto rendimiento
+                <TitleItem>
+                  Alto rendimiento
                   {/* High Performance Sport */}
-                  </TitleItem>
+                </TitleItem>
               </TitleWrapper>
             </Title>
             <Description>
-              Naci en Argentina, descendiente de Italianos, y vivo en Barcelona. Soy apasionado por el futbol y el deporte en general. Esa pasion se refleja en el dia a dia de mi trabajo. 
+              Nací en Argentina, descendiente de italianos y actualmente vivo en
+              Barcelona. Soy apasionado por el fútbol y el deporte en general.
+              Esa pasión se refleja en el día a día de mi trabajo.
               {/* "I was born in Argentina, of Italian descent, and currently reside in Barcelona. I am passionate about football and sports in general. This passion is reflected in my work." */}
             </Description>
           </LandingLeftWrapper>
@@ -44,8 +54,6 @@ const Landing = () => {
       </LandingContainer>
     </>
   );
-     
-  
-}
+};
 
-export default Landing
+export default Landing;

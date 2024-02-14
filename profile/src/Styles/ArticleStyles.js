@@ -12,6 +12,7 @@ export const StyledArticle = styled.article`
   transform-origin: center;
   transition: all 0.4s ease-in-out;
   overflow: hidden;
+  color: var(--title-color);
 
   a::after {
     position: absolute;
@@ -98,7 +99,6 @@ export const StyledArticle = styled.article`
       display: grid;
       grid-template-columns: 100px 1fr;
       gap: 10px;
-     
     }
 
     .article-body {
