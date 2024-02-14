@@ -3,25 +3,25 @@ import Landing from "./components/Landing";
 import Toggle from "./components/Toggle";
 import { ThemeContext } from "../src/context";
 import About from "./components/About";
-import EntreviewsSlide from "./components/EntreviewsSlide";
 import GlobalStyles from "./Styles/GlobalStyles";
 import Footer from "./components/Footer";
+import ArticlesCards from "./components/ArticlesCards";
 function App() {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
     <div
       style={{
-        backgroundColor: darkMode ? "#121212" : "#ededed",
+        backgroundColor: darkMode ? "#1a1e25" : "#ededed",
         color: darkMode && "#ededed",
       }}
     >
-      <GlobalStyles/>
+      <GlobalStyles />
       <Toggle />
       <Landing />
       <About />
-      <EntreviewsSlide/>
-      <Footer/>
+      <ArticlesCards/>
+      <Footer />
     </div>
   );
 }

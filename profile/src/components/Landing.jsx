@@ -1,6 +1,6 @@
 import React from 'react'
-import { LandingContainer, LandingLeft, LandingRight, LandingLeftWrapper, Intro, Name, Title, TitleWrapper, TitleItem, Description, SVG } from '../Styles/LandingStyles'
-import profileImg from "../assets/img/profileImg.jpg"
+import { LandingContainer, LandingLeft, LandingRight, LandingLeftWrapper, Intro, Name, Title, TitleWrapper, TitleItem, Description} from '../Styles/LandingStyles'
+import profileImg from "../assets/img/profileImg.png"
 
 
 const Landing = () => {
@@ -9,17 +9,32 @@ const Landing = () => {
       <LandingContainer>
         <LandingLeft>
           <LandingLeftWrapper>
-            <Intro>Hello, I'm</Intro>
+            <Intro>
+              Hola, soy
+              {/* Hello, I'm */}
+            </Intro>
             <Name> Cristian Roberto Micale</Name>
             <Title>
               <TitleWrapper>
-                <TitleItem>Football Coach</TitleItem>
-                <TitleItem>Personal Trainer</TitleItem>
-                <TitleItem> High Performance Sport</TitleItem>
+                <TitleItem>
+                  Entrenador futbol
+                  {/* Football Coach */}
+
+                </TitleItem>
+                <TitleItem>
+                  Entrenador personal
+                  {/* Personal Trainer */}
+
+                </TitleItem>
+                <TitleItem> 
+                  Deporte de alto rendimiento
+                  {/* High Performance Sport */}
+                  </TitleItem>
               </TitleWrapper>
             </Title>
             <Description>
-              "I was born in Argentina, of Italian descent, and currently reside in Barcelona. I am passionate about football and sports in general. This passion is reflected in my work."
+              Naci en Argentina, descendiente de Italianos, y vivo en Barcelona. Soy apasionado por el futbol y el deporte en general. Esa pasion se refleja en el dia a dia de mi trabajo. 
+              {/* "I was born in Argentina, of Italian descent, and currently reside in Barcelona. I am passionate about football and sports in general. This passion is reflected in my work." */}
             </Description>
           </LandingLeftWrapper>
         </LandingLeft>

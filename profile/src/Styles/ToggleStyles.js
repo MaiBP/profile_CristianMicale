@@ -1,5 +1,6 @@
 import styles from "styled-components"
 
+
 export const Toggler = styles.div`
 width: 50px;
     height: 25px;
@@ -13,7 +14,9 @@ width: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-`
+
+     
+`;
 
 export const TogglerIcon = styles.img`
     width: 15px;
